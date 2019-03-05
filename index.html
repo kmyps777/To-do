@@ -11,14 +11,18 @@
     <title>Todo</title>
   </head>
   <body>
-    <header>
-      <div class="header__top"><span class="header__date">03/02/Sat</span></div>
-      <div class="header__bottom">
-        <i class="fa fa-square-o"></i> <i class="fa fa-check-square-o"></i>
-        <i class="fa fa-plus"></i>
-        <span class="header__message">Click to add</span>
-      </div>
-    </header>
+    <header><span class="header__date">03/02/Sat</span></header>
+    <main class="Todo">
+      <ul class="Todo__list">
+        <li class="Todo__todo">
+          <i class="fa fa-square-o"></i> <i class="fa fa-check-square-o"></i>
+        </li>
+        <li class="Todo__todo">
+          <i class="fa fa-plus"></i>
+          <input type="text" placeholder="New Todo" />
+        </li>
+      </ul>
+    </main>
     <a href="challenge.html" class="tab-bar__tab">
       <i class="fa fa-calendar"></i
       ><span class="tab-bar__title">Challenge</span>
